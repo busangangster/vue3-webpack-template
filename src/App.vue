@@ -1,13 +1,20 @@
 <template>
-  <h1 ref="hello">
-    Hello world!
-  </h1>
+  <MyBtn />
 </template>
 
 <script>
+import MyBtn from '~/components/MyBtn'
+
 export default {
-  mounted() {
-    console.log(this.$refs.hello)
+  components: {
+    MyBtn
   }
 }
 </script>
+
+
+// <style lang="scss">
+//   .test {
+//     color:red;
+//   }
+// </style>
